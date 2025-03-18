@@ -1,0 +1,8 @@
+streamlit
+nltk
+gemini-api
+pandas
+python-dotenv
+pathway
+llama-index
+google-generativeai

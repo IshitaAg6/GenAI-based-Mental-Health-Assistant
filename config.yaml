@@ -1,0 +1,11 @@
+llm_config:
+  model: "Gemini"
+
+host_config:
+  host: "0.0.0.0"
+  port: 8501
+
+sources:
+  - kind: "local"
+    config:
+      path: "./journal_entries/"
