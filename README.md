@@ -4,20 +4,25 @@ Mental Health assistant that provides personalized mental health resources , inc
 
 ## Features
  Sentiment Analysis
+ 
  Personalized recommendations
 
 ## Technologies used 
  Streamlit : for creating front end UI
+ 
  Gemini API : for AI generated personalized recommendations 
+ 
  Docker 
 
 
 ## How to run the project
  First , clone the repository and then run **docker build --network=host -t mental_health_assistant .**
+ 
  Then run **docker run -p 8501:8501 mental_health_support**
 
 ## What the project looks like :
 It takes input from the user that is basically their diary entry and performs sentiment analysis on the text. It also provides copying strategies and self care recommendations for the user .
+
 A screenshot of the website is attached below for better understanding of the working of the website/project. 
 
 ![Screenshot 2024-09-30 221455](https://github.com/user-attachments/assets/c9b05627-9023-4870-8383-9cc632b4c6e8)
